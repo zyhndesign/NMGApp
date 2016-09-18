@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FooterViewController">
@@ -18,41 +19,53 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="logo_white" translatesAutoresizingMaskIntoConstraints="NO" id="ndi-pc-FYK">
-                    <rect key="frame" x="163" y="82" width="221" height="146"/>
-                </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="footer_bg" translatesAutoresizingMaskIntoConstraints="NO" id="TR3-3w-0Jn">
-                    <rect key="frame" x="373" y="62" width="217" height="403"/>
+                    <frame key="frameInset" minX="122" minY="53" width="324" height="257"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="project_bg" translatesAutoresizingMaskIntoConstraints="NO" id="uB6-vs-6LV">
-                    <rect key="frame" x="629" y="37" width="271" height="68"/>
+                    <frame key="frameInset" minX="629" minY="37" width="271" height="68"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jnZ-7l-Ts1">
-                    <rect key="frame" x="70" y="272" width="420" height="2"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <frame key="frameInset" minX="70" minY="327" width="420" height="2"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="hnu" translatesAutoresizingMaskIntoConstraints="NO" id="ekA-UW-UOW">
-                    <rect key="frame" x="162" y="324" width="230" height="70"/>
-                </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="download" translatesAutoresizingMaskIntoConstraints="NO" id="CeW-5p-ggF">
-                    <rect key="frame" x="455" y="554" width="125" height="46"/>
+                    <frame key="frameInset" minX="455" minY="554" width="125" height="46"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="450" translatesAutoresizingMaskIntoConstraints="NO" id="Pdv-bv-qGx">
-                    <rect key="frame" x="540" y="127" width="465" height="351"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <frame key="frameInset" minX="540" minY="127" width="465" height="351"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="hnu" translatesAutoresizingMaskIntoConstraints="NO" id="ekA-UW-UOW">
+                    <frame key="frameInset" minX="70" minY="376" width="230" height="70"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="markor" translatesAutoresizingMaskIntoConstraints="NO" id="LS4-qk-Iwl">
+                    <frame key="frameInset" minX="340" minY="328" width="150" height="150"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
             </subviews>
-            <color key="backgroundColor" red="0.098039215686274508" green="0.098039215686274508" blue="0.098039215686274508" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
         </view>
     </objects>
     <resources>
         <image name="download" width="123" height="46"/>
-        <image name="footer_bg" width="217" height="403"/>
         <image name="hnu" width="230" height="70"/>
-        <image name="logo_white" width="194" height="62"/>
-        <image name="project_bg" width="267" height="38"/>
+        <image name="logo_white" width="267" height="211"/>
+        <image name="markor" width="150" height="150"/>
+        <image name="project_bg" width="230" height="59"/>
     </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
 </document>
