@@ -33,11 +33,11 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </scrollView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="left_top_corner" translatesAutoresizingMaskIntoConstraints="NO" id="zJ5-zN-dRZ">
-                    <frame key="frameInset" minX="35" minY="890" width="87" height="86"/>
+                    <frame key="frameInset" minX="31" minY="890" width="87" height="86"/>
                     <autoresizingMask key="autoresizingMask"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="left_bottom_corner" translatesAutoresizingMaskIntoConstraints="NO" id="d29-bl-L65">
-                    <frame key="frameInset" minX="35" minY="1200" width="86" height="86"/>
+                    <frame key="frameInset" minX="31" minY="1200" width="86" height="86"/>
                     <autoresizingMask key="autoresizingMask"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="right_top_corner" translatesAutoresizingMaskIntoConstraints="NO" id="TT1-rB-EqW">

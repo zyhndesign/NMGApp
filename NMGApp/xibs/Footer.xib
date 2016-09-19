@@ -51,7 +51,7 @@
                     <autoresizingMask key="autoresizingMask"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="Kch-w3-M9w">
-                    <frame key="frameInset" minX="489" width="44" height="24"/>
+                    <frame key="frameInset" minX="491" width="44" height="24"/>
                     <autoresizingMask key="autoresizingMask"/>
                 </imageView>
             </subviews>

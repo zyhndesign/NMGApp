@@ -22,7 +22,7 @@
                                 <frame key="frameInset" minX="519" minY="632" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </activityIndicatorView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="logo_white" translatesAutoresizingMaskIntoConstraints="NO" id="xLM-DM-Pb0">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="footer_logo" translatesAutoresizingMaskIntoConstraints="NO" id="xLM-DM-Pb0">
                                 <frame key="frameInset" minX="353" minY="243" width="353" height="283"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -177,7 +177,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="logo_white" width="267" height="211"/>
+        <image name="footer_logo" width="267" height="211"/>
+        <image name="logo_white" width="71" height="56"/>
         <image name="musicPlayer" width="50" height="50"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
