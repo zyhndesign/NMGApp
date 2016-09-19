@@ -18,7 +18,7 @@
             <rect key="frame" x="0.0" y="0.0" width="1024" height="600"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="logo_white" translatesAutoresizingMaskIntoConstraints="NO" id="ndi-pc-FYK">
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="footer_logo" translatesAutoresizingMaskIntoConstraints="NO" id="ndi-pc-FYK">
                     <frame key="frameInset" minX="122" minY="53" width="324" height="257"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
@@ -62,9 +62,9 @@
     </objects>
     <resources>
         <image name="download" width="123" height="46"/>
+        <image name="footer_logo" width="267" height="211"/>
         <image name="hnu" width="115" height="42"/>
         <image name="icon" width="87" height="42"/>
-        <image name="logo_white" width="267" height="211"/>
         <image name="markor" width="124" height="32"/>
         <image name="project_bg" width="230" height="59"/>
     </resources>
