@@ -146,6 +146,10 @@
                         <constraint firstAttribute="width" constant="418" id="Xjn-2W-b5S"/>
                     </constraints>
                 </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="communityBottomTag" translatesAutoresizingMaskIntoConstraints="NO" id="hX2-jM-4Gz">
+                    <frame key="frameInset" minX="447" minY="739" width="129" height="62"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
@@ -162,6 +166,7 @@
     </objects>
     <resources>
         <image name="background1" width="1024" height="640"/>
+        <image name="communityBottomTag" width="129" height="62"/>
         <image name="downArrow" width="45" height="45"/>
         <image name="headerIcon" width="126" height="42"/>
         <image name="homeIcon" width="418" height="238"/>

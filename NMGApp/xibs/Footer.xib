@@ -42,12 +42,16 @@
                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="hnu" translatesAutoresizingMaskIntoConstraints="NO" id="ekA-UW-UOW">
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="hnu" translatesAutoresizingMaskIntoConstraints="NO" id="ekA-UW-UOW">
                     <frame key="frameInset" minX="70" minY="376" width="230" height="70"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="markor" translatesAutoresizingMaskIntoConstraints="NO" id="LS4-qk-Iwl">
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="markor" translatesAutoresizingMaskIntoConstraints="NO" id="LS4-qk-Iwl">
                     <frame key="frameInset" minX="340" minY="328" width="150" height="150"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="Kch-w3-M9w">
+                    <frame key="frameInset" minX="489" width="44" height="24"/>
                     <autoresizingMask key="autoresizingMask"/>
                 </imageView>
             </subviews>
@@ -58,9 +62,10 @@
     </objects>
     <resources>
         <image name="download" width="123" height="46"/>
-        <image name="hnu" width="230" height="70"/>
+        <image name="hnu" width="115" height="42"/>
+        <image name="icon" width="87" height="42"/>
         <image name="logo_white" width="267" height="211"/>
-        <image name="markor" width="150" height="150"/>
+        <image name="markor" width="124" height="32"/>
         <image name="project_bg" width="230" height="59"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
